@@ -1,0 +1,6 @@
+f = open("./Exp-50/file1.txt", "r")
+f2 = open("./Exp-50/file2.txt", "a")
+text = "\n" + f.read()
+f2.write(text)
+f.close()
+f2.close()
