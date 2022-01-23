@@ -1,5 +1,10 @@
-f = open("./Exp-51/file.txt", "r")
-text = f.read().split()
+from itertools import count
+
+
+f = open("./Exp-52/file.txt", "r")
+text = list(f.read())
+key = "s"
+count_char = text.count(key)
 print(text)
-print(len(text))
+print(count_char)
 f.close()
